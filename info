@@ -1,0 +1,7 @@
+P.S. - Кстати, отчёт от 1 до 9 это заставка.
+Чтобы её убрать удалите из кода:
+  for (int thisChar = 0; thisChar < 10; thisChar++) {
+    lcd.print(thisChar);
+    delay(500);
+  }
+ 
